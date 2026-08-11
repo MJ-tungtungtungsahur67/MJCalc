@@ -1,11 +1,13 @@
+#Import modules
 import tkinter as tk
 from tkinter import messagebox
 
+#create variables
 num1 = ""
 num2 = ""
 oper = ""
 
-
+#Functions
 def button_pressed(text):
     global num1, num2, oper
 
@@ -58,7 +60,7 @@ def calculate():
     num2 = ""
     oper = ""
 
-
+#Create GUI
 root = tk.Tk()
 root.title("MJCalc")
 root.geometry("400x400")
@@ -71,6 +73,7 @@ buttons = [
     "0", "C", "=", "+"
 ]
 
+#Configure GUI
 for i, text in enumerate(buttons):
     row = i // 4
     column = i % 4
