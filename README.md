@@ -8,7 +8,7 @@ A simple calculator made with Python and Tkinter.
 * Subtraction
 * Multiplication
 * Division
-* %(Percentage) button
+* Percentage(%) button
 * Errors
 
   * P.S. Might include some roasts
@@ -18,11 +18,11 @@ A simple calculator made with Python and Tkinter.
 * Dark UI
 * Clear button
 * Backspace Button (E)
-* Display-only calculator entry
+* Calculator Display
 
 ## Requirements
 
-You can use the `MJCalc.py` file for v1.0.1 or the `.exe` file for v1.1.0.
+You can use the `MJCalc.py` file or the `.exe` file for v1.1.0.
 
 If you're using the `.py` file, you need:
 
@@ -43,6 +43,6 @@ For the `.exe` version, just double-click it and hop right in.
 
 ## Current Version
 
-v1.1.1
+v1.1.0
 
 This project is still in development. More features and improvements coming soon!
